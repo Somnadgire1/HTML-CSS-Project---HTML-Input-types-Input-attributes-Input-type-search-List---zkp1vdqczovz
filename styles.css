@@ -1,1 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: violet;
+}
+#header{
+    position: relative;
+    width: 315px;
+    height: 550px;
+    background: white;
+    border-radius: 15px;
+}
+.phone{ 
+    position:absolute;
+    top: 2px;
+    bottom: 70px;
+    right: 2px;
+    left: 2px;
+    background: url(https://i2.wp.com/www.oldthingsnewblog.com/wp-content/uploads/2016/06/Painted-Door-013.jpg);
+    border-radius: 10px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    list-style: none;
+    position: relative;
+    padding-left: 0;
+    padding-top: 153%;
+    font-weight: 600;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #252525;
+}
+ul li a i{
+    padding-bottom: 10px;
+    padding-left: 11px;
+}
+ul li a #bloging{
+    padding-left: 5px;
+}
+ul li a #abouting{
+    padding-left: 22px;
+}
 
