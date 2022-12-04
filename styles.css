@@ -39,6 +39,10 @@ ul li a{
     text-decoration: none;
     color: #252525;
 }
+ul li a:hover{
+    color: tomato;
+    transform: translateY(5px);
+}
 ul li a i{
     padding-bottom: 10px;
     padding-left: 11px;
